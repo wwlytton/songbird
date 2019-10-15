@@ -42,7 +42,7 @@ simConfig.recordStim = True  # record spikes of cell stims
 simConfig.recordStep = 0.1 # Step size in ms to save data (eg. V traces, LFP, etc)
 
 # Saving
-simConfig.filename = 'HHTut'  # Set file output name
+simConfig.filename = 'output'  # Set file output name
 simConfig.saveFileStep = 1000 # step size in ms to save data to disk
 simConfig.savePickle = False # Whether or not to write spikes etc. to a .mat file
 
@@ -51,5 +51,5 @@ simConfig.analysis['plotRaster'] = {'saveData':'temp.json'}# True  # Plot raster
 simConfig.analysis['plotTraces'] = {'include': [2]}  # Plot raster
 simConfig.analysis['plot2Dnet'] = True  # Plot 2D net cells and connections
 
-sim.createSimulateAnalyze(netParams = HHTut.netParams, simConfig = HHTut.simConfig)  # create and simulate network
+sim.createSimulateAnalyze(netParams = HHsong.netParams, simConfig = HHsong.simConfig)  # create and simulate network
 
