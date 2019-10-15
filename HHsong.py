@@ -1,4 +1,5 @@
 # |||^#+|||
+import pylab as plt
 from netpyne import specs, sim
 netParams = specs.NetParams()   # object of class NetParams to store the network parameters
 simConfig = specs.SimConfig()   # object of class SimConfig to store the simulation configuration
