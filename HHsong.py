@@ -51,5 +51,5 @@ simConfig.analysis['plotRaster'] = {'saveData':'temp.json'}# True  # Plot raster
 simConfig.analysis['plotTraces'] = {'include': [2]}  # Plot raster
 simConfig.analysis['plot2Dnet'] = True  # Plot 2D net cells and connections
 
-sim.createSimulateAnalyze(netParams = HHsong.netParams, simConfig = HHsong.simConfig)  # create and simulate network
+sim.createSimulateAnalyze(netParams = netParams, simConfig = simConfig)  # create and simulate network
 
