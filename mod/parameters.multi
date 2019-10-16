@@ -1,2 +1,5 @@
 DEFAULT samnutils
+DEFAULT vecst
+DEFAULT stats
+DEFAULT misc
 
